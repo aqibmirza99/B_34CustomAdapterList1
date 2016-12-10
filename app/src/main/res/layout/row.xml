@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/shape"
+    android:layout_marginTop="6dp"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="1"
+        android:layout_marginLeft="7dp"
+        android:background="@drawable/shape"
+        android:textColor="#f00"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="19dp"
+        android:paddingLeft="5dp"
+        android:textSize="30sp"
+        android:id="@+id/tv1"
+        android:layout_weight="0.13" />
+
+    <TextView
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="40sp"
+        android:layout_marginTop="-180dp"
+        android:layout_marginLeft="105dp"
+        android:background="#fff"
+        android:textColor="#f00"
+        android:id="@+id/tv3"/>
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:text="Yess"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="110dp"
+
+        android:textSize="40sp"
+        android:layout_marginBottom="30dp"
+
+        android:background="#fff"
+        android:textColor="#f00"
+        android:id="@+id/tv2"/>
+
+</LinearLayout>
